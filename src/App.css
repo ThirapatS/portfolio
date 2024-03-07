@@ -1,0 +1,16 @@
+/* .home{
+ height: calc(100% - 11vh);
+} */
+.nav-width{
+  height: calc(100vh - 11vh);
+}
+html{
+  scroll-behavior: smooth;
+}
+::-webkit-scrollbar{
+  width: 0;
+}
+body {
+  height: 100%;
+  overflow-y: hidden;
+}
